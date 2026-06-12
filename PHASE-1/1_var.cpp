@@ -25,6 +25,15 @@ cout << x+y+z << endl;
 int a,b,c;
 a=b=c=18;
 cout << a+b+c << endl;
+
+
+int input;
+cout << "enter a number: ";
+cin >> input; // takes input from user and stores it in variable input
+
+cout << "you inputed number is " << input << endl;
+
+
     return 0; // ends the main function
 
     // c++ also have constants which are values that cannot be changed
